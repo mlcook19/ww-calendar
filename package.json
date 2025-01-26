@@ -14,5 +14,9 @@
   "devDependencies": {
     "@vue/cli-service": "^4.5.0",
     "@weweb/cli": "latest"
+  },
+  "weweb": {
+    "name": "Your Component Name",
+    "type": "element"
   }
 } 
