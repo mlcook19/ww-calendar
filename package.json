@@ -1,0 +1,18 @@
+{
+  "name": "ww-calendar",
+  "version": "1.0.0",
+  "description": "A 7-day calendar component for WeWeb",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0",
+    "@weweb/cli": "latest"
+  }
+} 
