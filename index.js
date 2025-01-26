@@ -1,7 +1,7 @@
 import wwElement from './wwElement.vue'
-import { getConfiguration } from './configuration.js'
+import config from './ww-config.js'
 
 export {
     wwElement,
-    getConfiguration
+    config as getConfiguration
 } 

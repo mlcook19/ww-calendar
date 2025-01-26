@@ -9,7 +9,9 @@
     "build": "weweb build",
     "serve": "weweb serve"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^3.0.0"
+  },
   "devDependencies": {
     "@weweb/cli": "latest"
   },
@@ -18,7 +20,9 @@
     "type": "element",
     "version": "1.0.0",
     "editor": {
-      "label": "Calendar"
+      "label": {
+        "en": "Calendar"
+      }
     }
   }
 } 
