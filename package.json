@@ -2,7 +2,7 @@
   "name": "ww-calendar",
   "version": "1.0.0",
   "description": "A 7-day calendar component for WeWeb",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "weweb build",
     "serve": "weweb serve"

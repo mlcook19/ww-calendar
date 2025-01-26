@@ -22,6 +22,12 @@ export const getConfiguration = (content) => {
         },
         defaultValue: 0,
         bindable: true,
+      },
+      showWeekNumbers: {
+        label: 'Show week numbers',
+        type: 'OnOff',
+        defaultValue: false,
+        bindable: true
       }
     }
   }

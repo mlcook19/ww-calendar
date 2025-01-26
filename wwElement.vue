@@ -33,12 +33,19 @@
 export default {
   name: 'WwCalendar',
   props: {
-    content: { type: Object, default: () => ({}) },
+    content: { 
+      type: Object, 
+      default: () => ({}) 
+    },
+    settings: {
+      type: Object,
+      default: () => ({})
+    }
   },
   data() {
     return {
       startDate: this.getStartOfWeek(new Date()),
-      weekDays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+      weekDays: this.getWeekDays(this.content.firstDayOfWeek || 0)
     }
   },
   computed: {
@@ -83,6 +90,10 @@ export default {
       const newStart = new Date(this.startDate);
       newStart.setDate(newStart.getDate() + 7);
       this.startDate = newStart;
+    },
+    getWeekDays(firstDay) {
+      const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+      return [...days.slice(firstDay), ...days.slice(0, firstDay)];
     }
   }
 }
