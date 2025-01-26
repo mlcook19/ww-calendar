@@ -34,12 +34,12 @@ export default {
   name: 'ww-calendar',
   props: {
     /* wwEditor:start */
-    /* wwEditor:end */
-    content: { 
+    settings: { 
       type: Object, 
       default: () => ({}) 
     },
-    settings: { 
+    /* wwEditor:end */
+    content: { 
       type: Object, 
       default: () => ({}) 
     }
