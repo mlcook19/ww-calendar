@@ -16,7 +16,7 @@
     "@weweb/cli": "latest"
   },
   "weweb": {
-    "name": "Your Component Name",
+    "name": "Calendar",
     "type": "element"
   }
 } 
