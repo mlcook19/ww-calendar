@@ -1,2 +1,7 @@
-export { default as wwElement } from './wwElement.vue'
-export { getConfiguration } from './configuration.js' 
+import wwElement from './wwElement.vue'
+import { getConfiguration } from './configuration.js'
+
+export {
+    wwElement,
+    getConfiguration
+} 

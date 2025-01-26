@@ -16,6 +16,9 @@
   "weweb": {
     "name": "Calendar",
     "type": "element",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "editor": {
+      "label": "Calendar"
+    }
   }
 } 

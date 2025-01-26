@@ -33,13 +33,15 @@
 export default {
   name: 'ww-calendar',
   props: {
+    /* wwEditor:start */
+    /* wwEditor:end */
     content: { 
       type: Object, 
       default: () => ({}) 
     },
-    settings: {
-      type: Object,
-      default: () => ({})
+    settings: { 
+      type: Object, 
+      default: () => ({}) 
     }
   },
   data() {

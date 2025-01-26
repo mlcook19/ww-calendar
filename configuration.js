@@ -1,5 +1,9 @@
-export const getConfiguration = (content) => {
+export const getConfiguration = () => {
   return {
+    editor: {
+      label: 'Calendar',
+      icon: 'calendar',
+    },
     options: {
       sizeOptions: true,
     },
