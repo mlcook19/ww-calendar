@@ -1,4 +1,4 @@
-import wwElement from './wwElement.vue'
+import wwElement from './src/wwElement.vue'
 import config from './ww-config.js'
 
 export {
