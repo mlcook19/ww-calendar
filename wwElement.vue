@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  name: 'WwCalendar',
+  name: 'ww-calendar',
   props: {
     content: { 
       type: Object, 

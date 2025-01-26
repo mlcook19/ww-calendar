@@ -1,22 +1,21 @@
 {
   "name": "ww-calendar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ww-calendar"
+  },
   "version": "1.0.0",
-  "description": "A 7-day calendar component for WeWeb",
-  "main": "index.js",
   "scripts": {
     "build": "weweb build",
     "serve": "weweb serve"
   },
-  "license": "MIT",
-  "dependencies": {
-    "vue": "^2.6.14"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@vue/cli-service": "^4.5.0",
     "@weweb/cli": "latest"
   },
   "weweb": {
     "name": "Calendar",
-    "type": "element"
+    "type": "element",
+    "version": "1.0.0"
   }
 } 
